@@ -1,20 +1,20 @@
-
 <section>
-    <h2>Create New Post</h2>
-    <form class="new-post-form">
-        <div>
-            <label for="post-title">Title</label>
-            <input type="text" id="post-title" name="post-title">
-        </div>
-        <div>
-            <label for="post-url">content</label>
-            <textarea id= "post-content" type="post-url" name="post-url">
-            </textarea>
+  <h2>Create New Post</h2>
 
-        </div>
-        <button type="submit" class="btn">Create</button>
-    </form>
+  <form class="new-post-form">
+    <div>
+      <label for="post-title">Title</label>
+      <input type="text" id="post-title" name="post-title" />
+    </div>
+    <div>
+      <label for="post-content">Content</label>
+      <textarea id="post-content" name="post-content"></textarea>
+    </div>
+    <button type="submit" class="btn">Create</button>
+  </form>
 </section>
+{{log posts.length}}
+{{log posts}}
 {{#if posts.length}}
 <section>
   <h2>Your Posts</h2>
@@ -28,4 +28,5 @@
   </ol>
 </section>
 {{/if}}
+
 <script src="/javascript/add-post.js"></script>
