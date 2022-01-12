@@ -8,7 +8,7 @@
       <input name="post-title" type="text" value="{{post.title}}" />
        </div>
        <div>
-          <input name="post-content" type="text" value="{{post.post_content}}" />
+          <textarea name="post-content" type="text">{{post.post_content}}</textarea>{
    </div>
     <div>
       {{post.vote_count}} {{format_plural "point" post.vote_count}} by you on {{format_date post.createdAt}}
