@@ -3,13 +3,26 @@
 ## Description
 Tech blog is a CMS-style blog site where developers can publish blog posts and comment on other developers’. This app follows the MVC paradigm in its architectural structure, using Handlebars.js as the templating engine language, Sequelize as the ORM, and the express-session npm package for authentication.
 
-## Built with
+## Build With
 * NODE.js
 * Express.js
 * Sequelize
 * Dotenv
-* Expression-session
-* Bcrypt package
+* Express Session
+* Bcrypt
+* Handlebars 
 
 ## Usage
-* clone the 
+* clone the repo 
+* Node.js framework and mySQL is required to run the application
+* Use command ``npm install`` to install the required npm packages
+* Use ``npm start`` to invoke the application to run on local host
+* Or use the deployed URL at: https://floating-spire-63987.herokuapp.com/
+
+## Demo
+[walk-through](https://watch.screencastify.com/v/aNF2BB9MOQXwHOkqwYSP)
+![demo](assets/Tech_Blog.gif)
+# License
+MIT License
+Copyright (c) 2021 Grace Liu
+
