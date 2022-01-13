@@ -1,0 +1,16 @@
+{{# if loggedIn}}
+  <form class="new-post-form">
+    <div>
+      <label for="post-title">Title</label>
+      <input type="text" id="post-title" name="post-title" />
+    </div>
+    <div>
+      <label for="post-content">Content</label>
+      <textarea id="post-content" name="post-content"></textarea>
+    </div>
+    <button type="submit" class="btn btn-danger">Create</button>
+  </form>
+  {{else}}
+  <div>please login first</div>
+{{/if}}
+<script src="/javascript/add-post.js"></script>

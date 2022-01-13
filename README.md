@@ -17,12 +17,12 @@ Tech blog is a CMS-style blog site where developers can publish blog posts and c
 * Node.js framework and mySQL is required to run the application
 * Use command ``npm install`` to install the required npm packages
 * Use ``npm start`` to invoke the application to run on local host
-* Or use the deployed URL at: https://floating-spire-63987.herokuapp.com/
+* Deployed URL: https://floating-spire-63987.herokuapp.com/
 
 ## Demo
-[walk-through](https://watch.screencastify.com/v/aNF2BB9MOQXwHOkqwYSP)
-![demo](assets/Tech_Blog.gif)
+* [click-here-to-see-walk-through-video](https://watch.screencastify.com/v/aNF2BB9MOQXwHOkqwYSP)
+
+* ![demo](assets/Tech_Blog.gif)
 # License
 MIT License
-Copyright (c) 2021 Grace Liu
-
+Copyright (c) 2022 Grace Liu
